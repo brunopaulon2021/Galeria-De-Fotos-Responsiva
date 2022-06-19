@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@1,700&display=swap" rel="stylesheet">
+    <title>Galeria De Fotos Do Meu Pet</title>
+</head>
+<style>
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+
+    }
+
+    h1 {
+        background-color: burlywood;
+        font-size: 50px;
+        font-family: 'Ubuntu', sans-serif;
+        text-align: center;
+    }
+
+    .wraper {
+        background-image: url(background.jpg);
+
+        display: flex;
+        flex-wrap: wrap;
+
+    }
+
+    .img {
+
+        max-width: 100%;
+        text-align: center;
+        margin: left 2px;
+    }
+
+    footer {
+        background-color: burlywood;
+
+
+    }
+
+    @media screen and (max-width: 10200px) {
+        .wraper .img {
+            width: 25%;
+        }
+    }
+
+    @media screen and (max-width: 1024px) {
+        .wraper .img {
+            width: 25%;
+        }
+    }
+
+    @media screen and (max-width: 768px) {
+        .wraper .img {
+            width: 50%;
+        }
+    }
+
+    @media screen and (max-width: 580px) {
+        .wraper .img {
+            width: 100%;
+        }
+    }
+</style>
+
+<body>
+    <div>
+        <h1>Galeria De Fotos Responsiva Do Bánze</h1>
+    </div>
+    <div class="wraper">
+        <div class="img">
+            <img src="1.jpg">
+        </div>
+        <div class="img">
+            <img src="2.jpg">
+        </div>
+        <div class="img">
+            <img src="3.jpg">
+        </div>
+        <div class="img">
+            <img src="4.jpg">
+        </div>
+        <div class="img">
+            <img src="5.jpg">
+        </div>
+        <div class="img">
+            <img src="6.jpg">
+        </div>
+        <div class="img">
+            <img src="7.jpg">
+        </div>
+        <div class="img">
+            <img src="8.jpg">
+        </div>
+        <div class="img">
+            <img src="9.jpg">
+        </div>
+        <div class="img">
+            <img src="10.jpg">
+        </div>
+    </div>
+    <footer>Todos os diretos reservados.</footer>
+</body>
+
+</html>
